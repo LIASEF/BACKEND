@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  padding: 20px;
+}
+
+.content-section {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #61dafb;
+}
+
+.paragraph {
+  margin: 20px 0;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.paragraph:hover {
+  transform: scale(1.1);
+  color: #ff6347; /* Красный или любой другой красивый цвет */
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
