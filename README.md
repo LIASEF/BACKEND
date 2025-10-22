@@ -1,4 +1,4 @@
 Статическая информационная страница: Отображает заголовок "Shadow the Hedgehog", приветственное сообщение, раздел "About Shadow" с текстом о персонаже (его происхождении, способностях, личности и роли в серии), и футер с упоминанием "Shadow the Hedgehog 2 - Coming Soon!".
 Сервер: Запускается на порту 3000, обслуживает сборку React-приложения из папки my-dynamic-ui/build. Все маршруты (*) перенаправляются на index.html фронтенда.
 Контейнеризация: Dockerfile позволяет запускать приложение в Docker-контейнере на базе Node.js 14.
-Скрипты: В корневом package.json есть базовый скрипт test (пустой), в my-dynamic-ui/package.json — стандартные CRA-скрипты (start, build, test, eject).
+Скрипты:  в my-dynamic-ui/package.json — стандартные CRA-скрипты (start, build, test, eject).
